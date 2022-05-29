@@ -16,6 +16,7 @@ public class parser : MonoBehaviour
     public List<string> sally;
     public List<string> brad;
     public List<string> lynus;
+    
     [ContextMenu("Test Parser")]
     public void GetConversationText()
     {

@@ -154,6 +154,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conversations: {fileID: 4900000, guid: 246336de26d32f446847d8de78fdc2bc, type: 3}
+  conversationText: []
+  introductions: []
+  beatrice: []
+  sally: []
+  brad: []
+  lynus: []
 --- !u!114 &68488772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,31 +172,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8bb0f531a3897c4cb0265ebc59585ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentCharacter:
+    name: 
+    attractiveness: 0
+    lineNum: 0
+    lines: []
+    background: {fileID: 0}
   characters:
   - name: Beatrice
     attractiveness: 0
     lineNum: 0
-    interaction1: []
-    interaction2: []
-    interaction3: []
+    lines: []
+    background: {fileID: 0}
   - name: Lynus
     attractiveness: 0
     lineNum: 0
-    interaction1: []
-    interaction2: []
-    interaction3: []
+    lines: []
+    background: {fileID: 0}
   - name: Brad
     attractiveness: 0
     lineNum: 0
-    interaction1: []
-    interaction2: []
-    interaction3: []
+    lines: []
+    background: {fileID: 0}
   - name: Sally Star
     attractiveness: 0
     lineNum: 0
-    interaction1: []
-    interaction2: []
-    interaction3: []
+    lines: []
+    background: {fileID: 0}
+  parser: {fileID: 68488771}
 --- !u!4 &68488773
 Transform:
   m_ObjectHideFlags: 0
@@ -1476,8 +1485,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4290773204
+  m_fontColor: {r: 0.8301887, g: 0, b: 0.75221324, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
