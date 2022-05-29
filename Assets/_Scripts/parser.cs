@@ -9,17 +9,6 @@ using UnityEngine;
 public class parser : MonoBehaviour
 {
     public TextAsset conversations;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public string[] conversationText;
     public List<string> introductions;
