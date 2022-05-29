@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public Character currentCharacter;
     public Character[] characters;
     public parser parser;
+    public TextScrolling textScrolling;
     public GameObject yesNoButtons;
     public GameObject characterSelectionScreen;
     public Image backgroundImage;
@@ -20,6 +21,7 @@ public class GameManager : MonoBehaviour
     {
         parser = GetComponent<parser>();
         parser.GetConversationText();
+        textScrolling.displayText();
         for (int i = 0; i < characters.Length; i++)
         {
             if (characters[i].name == "Beatrice")
