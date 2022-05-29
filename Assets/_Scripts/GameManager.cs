@@ -9,11 +9,13 @@ public class GameManager : MonoBehaviour
     public Character currentCharacter;
     public Character[] characters;
     public parser parser;
+    public TextScrolling textScrolling;
 
     public void Start()
     {
         parser = GetComponent<parser>();
         parser.GetConversationText();
+        textScrolling.displayText();
         for (int i = 0; i < characters.Length; i++)
         {
             if (characters[i].name == "Beatrice")
