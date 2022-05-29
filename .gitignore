@@ -36,3 +36,4 @@ sysinfo.txt
 !/Assets/Plugins/Sirenix/Demos/*.unitypackage 
 Assets/Audio/Sounds.meta
 .idea/
+UserSettings/EditorUserSettings.asset

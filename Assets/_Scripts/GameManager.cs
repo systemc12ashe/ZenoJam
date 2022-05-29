@@ -1,13 +1,20 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.Antlr3.Runtime;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public Character currentCharacter;
     public Character[] characters;
+    public Parser parser;
 
+    public void Start()
+    {
+        parser = GetComponent<Parser>();
+        parser
+    }
 
     public void Yes()
     {
@@ -19,6 +26,8 @@ public class GameManager : MonoBehaviour
         currentCharacter.lineNum += 4;
         currentCharacter.attractiveness -= 1f;
     }
+    
+    
 }
 
 [Serializable]
