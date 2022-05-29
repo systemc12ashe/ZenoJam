@@ -5,7 +5,20 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public Character currentCharacter;
     public Character[] characters;
+
+
+    public void Yes()
+    {
+        currentCharacter.lineNum += 2;
+        currentCharacter.attractiveness += 1;
+    }
+    public void No()
+    {
+        currentCharacter.lineNum += 4;
+        currentCharacter.attractiveness -= 1f;
+    }
 }
 
 [Serializable]
@@ -17,4 +30,5 @@ public class Character
     public string[] interaction1;
     public string[] interaction2;
     public string[] interaction3;
+    public Sprite background;
 }
