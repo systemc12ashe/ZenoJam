@@ -437,7 +437,7 @@ MonoBehaviour:
     neutral: {fileID: 0}
     lovie: {fileID: 0}
     sad: {fileID: 0}
-    screen: {fileID: 0}
+    screen: {fileID: 316827999}
   - name: Beatrice
     attractiveness: 0
     lineNum: 0
@@ -480,6 +480,7 @@ MonoBehaviour:
   characterSelectionScreen: {fileID: 317542365}
   backgroundImage: {fileID: 302622038}
   dialogueText: {fileID: 125647259}
+  mantisScreen: {fileID: 316827999}
 --- !u!4 &68488773
 Transform:
   m_ObjectHideFlags: 0
@@ -1083,7 +1084,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &317542366
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1670,7 +1671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &862456908
 RectTransform:
   m_ObjectHideFlags: 0

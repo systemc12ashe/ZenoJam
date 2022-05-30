@@ -24,7 +24,7 @@ public class TextScrolling : MonoBehaviour
     {
         foreach (var character in characterArray)
         {
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.025f);
             text.text += character;
         }
 
