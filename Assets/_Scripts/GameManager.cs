@@ -40,12 +40,14 @@ public class GameManager : MonoBehaviour
     {
         currentCharacter.lineNum += 1;
         currentCharacter.attractiveness += 1;
+        currentCharacter.screen.GetComponentInChildren<Image>().sprite = currentCharacter.lovie;
         UpdateText();
     }
     public void No()
     {
         currentCharacter.lineNum += 2;
         currentCharacter.attractiveness -= 1f;
+        currentCharacter.screen.GetComponentInChildren<Image>().sprite = currentCharacter.sad;
         UpdateText();
     }
 
