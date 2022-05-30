@@ -25,11 +25,11 @@ public class parser : MonoBehaviour
         using (StreamReader sr = new StreamReader(path))
         {
             var output = sr.ReadToEnd();
-            conversationText = output.Split(new string[] { "***" }, System.StringSplitOptions.None);
+            conversationText = output.Split(new string[] { "\n***\n" }, System.StringSplitOptions.None);
             AddToList(beatrice, 6);
-            AddToList(lynus, 20);
-            AddToList(brad, 36);
-            AddToList(sally, 53);
+            AddToList(lynus, 19);
+            AddToList(brad, 35);
+            AddToList(sally, 52);
             AddToList(introductions, 0);
         }
     }
@@ -39,7 +39,7 @@ public class parser : MonoBehaviour
         List<string> interactionOne = new List<string>();
         List<string> interactionTwo = new List<string>();
         List<string> interactionThree = new List<string>();
-        for (int i = start; i <= 65; i++)
+        for (int i = start; i <= 64; i++)
         {
             if (currentList == introductions)
             {
@@ -54,13 +54,13 @@ public class parser : MonoBehaviour
             }
             if (currentList == sally)
             {
-                if (i <= 57)
+                if (i <= 56)
                 {
                     interactionOne.Add(conversationText[i]);
-                } else if (i <= 62)
+                } else if (i <= 61)
                 {
                     interactionTwo.Add(conversationText[i]);
-                } else if (i <= 65)
+                } else if (i <= 64)
                 {
                     interactionThree.Add(conversationText[i]);
                 }
@@ -71,13 +71,13 @@ public class parser : MonoBehaviour
             }
             if (currentList == brad)
             {
-                if (i <= 42)
+                if (i <= 41)
                 {
                     interactionOne.Add(conversationText[i]);
-                } else if (i <= 47)
+                } else if (i <= 46)
                 {
                     interactionTwo.Add(conversationText[i]);
-                } else if (i <= 52)
+                } else if (i <= 51)
                 {
                     interactionThree.Add(conversationText[i]);
                 }
@@ -88,14 +88,14 @@ public class parser : MonoBehaviour
             }
             if (currentList == beatrice)
             {
-                if (i is >= 6 and <= 11)
+                if (i is >= 6 and <= 10)
                 {
                     
                     interactionOne.Add(conversationText[i]);
-                } else if (i is > 11 and <= 14)
+                } else if (i is > 10 and <= 13)
                 {
                     interactionTwo.Add(conversationText[i]);
-                } else if (i is > 14 and <= 19)
+                } else if (i is > 13 and <= 18)
                 {
                     interactionThree.Add(conversationText[i]);
                 }
@@ -106,15 +106,15 @@ public class parser : MonoBehaviour
             }
             if (currentList == lynus)
             {
-                if (i <= 24)
+                if (i <= 23)
                 {
                     interactionOne.Add(conversationText[i]);
                 }
-                else if (i <= 30)
+                else if (i <= 29)
                 {
                     interactionTwo.Add(conversationText[i]);
                 }
-                else if (i <= 35)
+                else if (i <= 34)
                 {
                     interactionThree.Add(conversationText[i]);
                 }

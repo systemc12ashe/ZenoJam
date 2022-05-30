@@ -22,12 +22,12 @@ public class TextScrolling : MonoBehaviour
 
     public IEnumerator displayCharacter(char[] characterArray, TMP_Text text)
     {
-        for (int i = 2; i < characterArray.Length; i++)
+        foreach (var character in characterArray)
         {
             yield return new WaitForSeconds(0.05f);
-            text.text += characterArray[i];
+            text.text += character;
         }
-        
+
     }
 
 }

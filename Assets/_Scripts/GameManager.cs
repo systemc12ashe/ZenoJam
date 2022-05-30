@@ -40,16 +40,19 @@ public class GameManager : MonoBehaviour
     {
         currentCharacter.lineNum += 1;
         currentCharacter.attractiveness += 1;
+        UpdateText();
     }
     public void No()
     {
         currentCharacter.lineNum += 2;
         currentCharacter.attractiveness -= 1f;
+        UpdateText();
     }
 
     public void NextLine()
     {
         currentCharacter.lineNum += 1;
+        UpdateText();
     }
 
     public void SelectCharacter(int i)
@@ -64,7 +67,12 @@ public class GameManager : MonoBehaviour
     {
         currentCharacter.screen.SetActive(true);
         backgroundImage.sprite = currentCharacter.background;
-        textScrolling.displayText(dialogueText, currentCharacter.lines[0][0]);
+        UpdateText();
+    }
+
+    public void UpdateText()
+    {
+        textScrolling.displayText(dialogueText, currentCharacter.lines[currentCharacter.interactionNum][currentCharacter.lineNum]);
     }
 }
 
@@ -77,5 +85,8 @@ public class Character
     public int interactionNum = 0;
     public List<List<string>> lines;
     public Sprite background;
+    public Sprite neutral;
+    public Sprite lovie;
+    public Sprite sad;
     public GameObject screen;
 }
