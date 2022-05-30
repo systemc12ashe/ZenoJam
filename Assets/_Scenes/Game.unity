@@ -424,6 +424,9 @@ MonoBehaviour:
     lineNum: 0
     interactionNum: 0
     background: {fileID: 0}
+    neutral: {fileID: 0}
+    lovie: {fileID: 0}
+    sad: {fileID: 0}
     screen: {fileID: 0}
   characters:
   - name: Introductions
@@ -431,30 +434,45 @@ MonoBehaviour:
     lineNum: 0
     interactionNum: 0
     background: {fileID: 21300000, guid: 0d2692f3a6edfd940a73ab552b739f9e, type: 3}
+    neutral: {fileID: 0}
+    lovie: {fileID: 0}
+    sad: {fileID: 0}
     screen: {fileID: 0}
   - name: Beatrice
     attractiveness: 0
     lineNum: 0
     interactionNum: 0
     background: {fileID: 21300000, guid: 0280759c4a7c95a4ab2bd9cf24900a49, type: 3}
+    neutral: {fileID: 21300000, guid: 59ac4d1bd18b6ef41a7c8a14e3976290, type: 3}
+    lovie: {fileID: 21300000, guid: 648947acea4f6d64f8e9a9ef375d35ed, type: 3}
+    sad: {fileID: 21300000, guid: a12f12bd662e4094fbce2875e4429a59, type: 3}
     screen: {fileID: 837580283}
   - name: Lynus
     attractiveness: 0
     lineNum: 0
     interactionNum: 0
     background: {fileID: 21300000, guid: e98a39e1b9b961c45ad754460946ee8b, type: 3}
+    neutral: {fileID: 21300000, guid: 6744c411351adf94e95e3d27b7ae08d6, type: 3}
+    lovie: {fileID: 21300000, guid: 17285889baed7b346b1d2c0b3acaa1ed, type: 3}
+    sad: {fileID: 21300000, guid: f19d29f8d7ff8e340a5870326b6354f2, type: 3}
     screen: {fileID: 1849527052}
   - name: Brad
     attractiveness: 0
     lineNum: 0
     interactionNum: 0
     background: {fileID: 21300000, guid: 1e9d53bc081943f48b7a6f4237f24ee8, type: 3}
+    neutral: {fileID: 21300000, guid: f5441362bddcb3847873e19a4bdbc878, type: 3}
+    lovie: {fileID: 21300000, guid: 6cd61686a145f5d4985ee6e43af3320b, type: 3}
+    sad: {fileID: 21300000, guid: e4632f1d755e34144b829743c27bf502, type: 3}
     screen: {fileID: 1389861083}
   - name: Sally Star
     attractiveness: 0
     lineNum: 0
     interactionNum: 0
     background: {fileID: 21300000, guid: 026ac218ac426c04db50a5515563733a, type: 3}
+    neutral: {fileID: 21300000, guid: 231899c2f2e784e4da6aa40a3f652430, type: 3}
+    lovie: {fileID: 21300000, guid: 526993d9d009ac54d82c9c0d9ebc9ce8, type: 3}
+    sad: {fileID: 21300000, guid: d75a8c94fa5f5354a96e75fb104556ed, type: 3}
     screen: {fileID: 1493516635}
   parser: {fileID: 68488771}
   textScrolling: {fileID: 68488774}
@@ -1601,7 +1619,6 @@ GameObject:
   m_Component:
   - component: {fileID: 837580284}
   - component: {fileID: 837580286}
-  - component: {fileID: 837580285}
   m_Layer: 5
   m_Name: BeeScene
   m_TagString: Untagged
@@ -1630,36 +1647,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &837580285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 837580283}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &837580286
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2789,7 +2776,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1389861084}
   - component: {fileID: 1389861086}
-  - component: {fileID: 1389861085}
   m_Layer: 5
   m_Name: BeetleScene
   m_TagString: Untagged
@@ -2818,36 +2804,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1389861085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1389861083}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1389861086
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2866,7 +2822,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1493516636}
   - component: {fileID: 1493516638}
-  - component: {fileID: 1493516637}
   m_Layer: 5
   m_Name: SpiderScene
   m_TagString: Untagged
@@ -2895,36 +2850,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1493516637
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1493516635}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1493516638
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3393,7 +3318,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1849527053}
   - component: {fileID: 1849527055}
-  - component: {fileID: 1849527054}
   m_Layer: 5
   m_Name: TickScene
   m_TagString: Untagged
@@ -3422,36 +3346,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1849527054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1849527052}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1849527055
 CanvasRenderer:
   m_ObjectHideFlags: 0
