@@ -158,254 +158,192 @@ MonoBehaviour:
   conversationText:
   - "Welcome to your first day at Insecta Inc. My name is Mantis. I run the show
     around here. I think you\u2019ll fit in with everyone quite nicely. Let\u2019s
-    get you settled in, shall we?\n"
-  - "\nHi there! I heard you\u2019re the newbie around here! I\u2019m Beatrice, but
+    get you settled in, shall we?"
+  - "Hi there! I heard you\u2019re the newbie around here! I\u2019m Beatrice, but
     you can call me Bea. Get it? Hahaha, I knew you would. You\u2019re so intelligent
     afterall. I can tell just by looking at you that we\u2019ll get along really
-    well.\n"
-  - "\nOh, why hello there! It\u2019s my pleasure to meet you. Is today your first
+    well."
+  - "Oh, why hello there! It\u2019s my pleasure to meet you. Is today your first
     day? I couldn\u2019t even tell, you look like a pro. If you\u2019re ever bored,
     come talk to me. I\u2019ll always be there for you. Always. I love y- I mean,
-    see ya later!\n"
-  - '
-
-    Yo, sup bro, how it be, tle. Ha see what I did there, I''m a beetle. So
-    yeah you look pretty cool, we should chill sometime. I have this cool crypto
-    podcast I do with my roommate. We would love to have you on The Pod sometime
-    bro. Anyways, catch ya on the flip dude.
-
-'
-  - "\nOh hi! I didn\u2019t see you there. Sorry I just dropped my pen, let me grab
-    that. (Falls ass towards you) OH NO! I\u2019m so sorry I\u2019m such a clumsy
-    girl I got myself stuck in my own web. Please help me out.\n"
-  - "\nNow that you\u2019ve met everyone, I\u2019ll properly introduce myself. I\u2019m
+    see ya later!"
+  - Yo, sup bro, how it be, tle. Ha see what I did there, I'm a beetle. So yeah you
+    look pretty cool, we should chill sometime. I have this cool crypto podcast I
+    do with my roommate. We would love to have you on The Pod sometime bro. Anyways,
+    catch ya on the flip dude.
+  - "Oh hi! I didn\u2019t see you there. Sorry I just dropped my pen, let me grab
+    that. OH NO! I\u2019m so sorry I\u2019m such a clumsy girl I got myself stuck
+    in my own web. Please help me out."
+  - "Now that you\u2019ve met everyone, I\u2019ll properly introduce myself. I\u2019m
     Mantis, and you can come to me if you need anything, I don\u2019t bite! I\u2019m
     just glad to find an employee that might get something done around here. Everyone
     around here is very, very friendly. Maybe a bit too friendly. Regardless, I know
     you\u2019ll do what\u2019s right. Why don\u2019t you get started by helping out
-    one of our busy bees with their work?\n"
-  - "\nOh hey, it\u2019s you again! I hope you\u2019re enjoying your time working
-    here so far. You deserve to feel fulfilled at work. I can\u2019t believe we haven\u2019t
-    seen each other since we met. Oh, and I wanted to ask you, do you like flowers?\n"
-  - "\nOh you do??? I do too! You\u2019re so lovely! You have me buzzing!\n"
-  - '
-
-    I still live back at the hive with the folks. Is that ok with you?
-
-'
-  - '
-
-    Oh, neither do I. Anyone who likes flowers can buzz off. I still live
-    back at the hive with the folks. Is that ok with you?
-
-'
-  - "\nI bet all of them would just LOVE you! You\u2019re as sweet as honey. Should
-    we get back to working?\n"
-  - "\nOh\u2026 Well, I bet all of them would just LOVE you! You\u2019re as sweet
-    as honey. Should we get back to working?\n"
-  - "\nWow! You chose to come see me again today! You\u2019re just so perfect. I
-    bought you a bouquet of flowers. I saw them and they reminded me of you. Would
-    you want to move in with me? I just really love you.\n"
-  - "\nWow, I didn\u2019t expect someone as amazing as you to say yes. I can help
-    you move in all of your things later on tonight! I can help you move your things
-    around 6?\n"
-  - "\nOh, you\u2019re right. Maybe it is too soon. Sorry if I came on too strong.
+    one of our busy bees with their work?"
+  - "Oh hey, it\u2019s you again! I hope you\u2019re enjoying your time working here
+    so far. You deserve to feel fulfilled at work. I can\u2019t believe we haven\u2019t
+    seen each other since we met. Oh, and I wanted to ask you, do you like flowers?"
+  - "Oh you do??? I do too! You\u2019re so lovely! You have me buzzing!! I still
+    live back at the hive with the folks. Is that ok with you?"
+  - Oh, neither do I. Anyone who likes flowers can buzz off. I still live back at
+    the hive with the folks. Is that ok with you?
+  - "I bet all of them would just LOVE you! You\u2019re as sweet as honey. Should
+    we get back to working?"
+  - "Oh\u2026 Well, I bet all of them would just LOVE you! You\u2019re as sweet as
+    honey. Should we get back to working?"
+  - "Wow! You chose to come see me again today! You\u2019re just so perfect. I bought
+    you a bouquet of flowers. I saw them and they reminded me of you. Would you want
+    to move in with me? I just really love you."
+  - "Wow, I didn\u2019t expect someone as amazing as you to say yes. I can help you
+    move in all of your things later on tonight! I can help you move your things
+    around 6?"
+  - "Oh, you\u2019re right. Maybe it is too soon. Sorry if I came on too strong.
     I\u2019m just attracted to you like pollen. I can help you move your things around
-    6?\n"
-  - "\nHiya! Good to see you as always. I must say, you\u2019re glowing today my
-    queen. Everyone in the hive is so happy to have you living with us now. They
-    all seem to love you just as much as I do. I know the honeycomb is a bit\u2026
-    cozy. But you\u2019ll get used to it! I have a large book collection back at
-    the hive. Do you like to read?\n"
-  - "\nOh goodie, you should try reading Bug Catcher in the Rye. Such a classic.
-    \n"
-  - "\nOh that's a shame. I'm sure if you try a classic like Bug Catcher in the Rye
-    you might change your mind. \n"
-  - '
-
-    I''m so glad you''re willing to take my recommendation! I have really
-    good taste. Speaking of taste, be sure to be at the hive on Friday, I have someone
-    for you to meet!
-
-'
-  - '
-
-    You''re such an intellectual, you must have already read it! Wow, I knew
-    you were great, but this is impressive. You have such good taste! Speaking of
-    taste, be sure to be at the hive on Friday, I have someone for you to meet!
-
-'
-  - "\nOh, why hello! It\u2019s my favorite coworker! I bet you\u2019re doing amazing
+    6?"
+  - "Hiya! Good to see you as always. I must say, you\u2019re glowing today my queen.
+    Everyone in the hive is so happy to have you living with us now. They all seem
+    to love you just as much as I do. I know the honeycomb is a bit\u2026 cozy. But
+    you\u2019ll get used to it! I have a large book collection back at the hive.
+    Do you like to read?"
+  - 'Oh goodie, you should try reading Bug Catcher in the Rye. Such a classic. '
+  - 'Oh that''s a shame. I''m sure if you try a classic like Bug Catcher in the Rye
+    you might change your mind. '
+  - I'm so glad you're willing to take my recommendation! I have really good taste.
+    Speaking of taste, be sure to be at the hive on Friday, I have someone for you
+    to meet!
+  - You're such an intellectual, you must have already read it! Wow, I knew you were
+    great, but this is impressive. You have such good taste! Speaking of taste, be
+    sure to be at the hive on Friday, I have someone for you to meet!
+  - "Oh, why hello! It\u2019s my favorite coworker! I bet you\u2019re doing amazing
     here so far. If you ever need any help, you should come to me. I\u2019m employee
-    of the month, afterall. Have been for 3 months straight. Are you impressed?\n"
-  - "\nWhy, thank you! You are so productive here, I\u2019m just afraid you\u2019ll
+    of the month, afterall. Have been for 3 months straight. Are you impressed?"
+  - "Why, thank you! You are so productive here, I\u2019m just afraid you\u2019ll
     steal my title! Hahaha! Anyway, I want to know more about you. Do you prefer
-    picnics over barbeques?\n"
-  - "\nOh\u2026 I see. You are so productive here, I\u2019m just afraid you\u2019ll
+    picnics over barbeques?"
+  - "Oh\u2026 I see. You are so productive here, I\u2019m just afraid you\u2019ll
     steal my title! Hahaha! Anyway, I want to know more about you. Do you prefer
-    picnics over barbeques?\n"
-  - "\nHuh, that\u2019s my answer too! I love when folks are in the grass. Gives
-    me a chance to catch a meal. Wouldn\u2019t expect that from a firefly, though.
-    Maybe we can get a meal together sometime?\n"
-  - '
-
-    Ah, that makes sense. I would definitely pick that if I were you. I live
-    for picnics, though. Gives me a chance to catch a meal. Maybe we can get a meal
-    together sometime?
-
-'
-  - "\nOh, why hello again! I\u2019m so glad you could meet me for lunch. I have
-    been starving all day! It\u2019s been too long since anyone let themselves be
-    my meal. You\u2019re really such a sweetie. Oh, are you going to eat your lunch?
-    Looks yummy!\n"
-  - "\nGood! I know you don\u2019t eat as much as a firefly, but it\u2019s important
-    for growth! Am I your favorite person here at the company yet?\n"
-  - "\nOh no!  I know you don\u2019t eat as much as a firefly, but it\u2019s important
-    for growth! Am I your favorite person here at the company yet?\n"
-  - "\nGood. That\u2019s what I wanted to hear, I spend a lot of time trying to get
-    you to like me. We are just so perfect together, don\u2019t you agree?\n"
-  - "\nOh, don\u2019t be silly. I think I am actually. No way you would spend all
-    this time with me if I wasn\u2019t your favorite! We are just so perfect together,
-    don\u2019t you agree?\n"
-  - "\nI\u2019m so glad we spent this lunch break together. I hope to see you soon!\n"
-  - '
-
-    Oh really? I had a blast at our last lunch. Maybe dinner, after work instead?
-
-'
-  - "\nDinner it is then! I\u2019ll see you at the end of the week. I\u2019ll pick
-    you up at 7.\n"
-  - "\nOh? No dinner? Well, then I\u2019ll pick you up at the end of the week for
-    a morning coffee instead.\n"
-  - "\nSup. Welcome to The Corn that's what I call my corner. I know, you don\u2019t
+    picnics over barbeques?"
+  - "Huh, that\u2019s my answer too! I love when folks are in the grass. Gives me
+    a chance to catch a meal. Wouldn\u2019t expect that from a firefly, though. Maybe
+    we can get a meal together sometime?"
+  - Ah, that makes sense. I would definitely pick that if I were you. I live for
+    picnics, though. Gives me a chance to catch a meal. Maybe we can get a meal together
+    sometime?
+  - "Oh, why hello again! I\u2019m so glad you could meet me for lunch. I have been
+    starving all day! It\u2019s been too long since anyone let themselves be my meal.
+    You\u2019re really such a sweetie. Oh, are you going to eat your lunch? Looks
+    yummy!"
+  - "Good! I know you don\u2019t eat as much as a firefly, but it\u2019s important
+    for growth! Am I your favorite person here at the company yet?"
+  - "Oh no!  I know you don\u2019t eat as much as a firefly, but it\u2019s important
+    for growth! Am I your favorite person here at the company yet?"
+  - "Good. That\u2019s what I wanted to hear, I spend a lot of time trying to get
+    you to like me. We are just so perfect together, don\u2019t you agree?"
+  - "Oh, don\u2019t be silly. I think I am actually. No way you would spend all this
+    time with me if I wasn\u2019t your favorite! We are just so perfect together,
+    don\u2019t you agree?"
+  - "I\u2019m so glad we spent this lunch break together. I hope to see you soon!"
+  - "Oh, why hello my lovebug! I\u2019m so glad to see you, as always. It's so funny
+    how we always bump into each other, isn\u2019t it? Hahaha! I\u2019m not following
+    you, I swear. I\u2019m so glad we\u2019re getting so close. Would you want to
+    eat together again soon?"
+  - "I\u2019m so glad. Last time was a blast! I was actually thinking we could do
+    dinner together sometime soon? I didn\u2019t want to be too forward, but I just
+    really enjoy eating with you."
+  - Oh really? I had a blast at our last lunch. Maybe dinner, after work instead?
+  - "Dinner it is then! I\u2019ll see you at the end of the week. I\u2019ll pick
+    you up at 7."
+  - "Oh? No dinner? Well, then I\u2019ll pick you up at the end of the week for a
+    morning coffee instead."
+  - "Sup. Welcome to The Corn that's what I call my corner. I know, you don\u2019t
     have to tell me it\u2019s kinda sick. I\u2019m super into the vibe this place
     has. It's like chill but also like bland you know what I mean? Yeah you do. So
-    anyways, you a big fan of the gym?\n"
-  - "\nNice, that's super tight. I knew you would. You just got that look like you
+    anyways, you a big fan of the gym?"
+  - "Nice, that's super tight. I knew you would. You just got that look like you
     know what's up and I dig that. I\u2019m really looking for those kinds of people.
-    People who just like to know what's up. So anyways you check out The Pod?\n"
-  - '
-
-    Damn bro that''s super tragic. You really got the bod for it bro, like
-    with some work you could really take it to the next level. I bet if you got into
-    it you would love it. Tell me you are at least a podcast guy and checked out
-    The Pod.
-
-'
-  - "\nDamn bro I knew you were about it. That's tight af man. You loved it didn\u2019t
+    People who just like to know what's up. So anyways you check out The Pod?"
+  - Damn bro that's super tragic. You really got the bod for it bro, like with some
+    work you could really take it to the next level. I bet if you got into it you
+    would love it. Tell me you are at least a podcast guy and checked out The Pod.
+  - "Damn bro I knew you were about it. That's tight af man. You loved it didn\u2019t
     you. I knew it! Bro you rock I was saying you should totally come on it would
-    be super sick. You in?\n"
-  - "\nBro really? Damn that\u2019s rough but I get you. You would love it bro trust.
+    be super sick. You in?"
+  - "Bro really? Damn that\u2019s rough but I get you. You would love it bro trust.
     It is like definitely your vibe bro. You would love it. Yo better yet we should
-    get you on. You down bro?\n"
-  - "\nSick! This is gonna be great! That\u2019s so hype bro I\u2019m so down. We
-    are doing another show later this week. I'll check back when we are ready to
-    go bro. I\u2019ll check you later man.\n"
-  - '
-
-    Aight bro I see well the option is still open if you want it. Well man
-    you should hit me up later and we can hash this out. Later bro.
-
-'
-  - "\nAyy how\u2019s it going bro. You a big fan of diets? I got this keto thing
-    going and I think it\u2019s totally helping my gains. Can you tell?\n"
-  - "\nThanks bro I knew you could tell. I\u2019ve been flexin over here like all
-    day and none of the other bros besides you have complimented me.That was big
-    of you bro. You still interested in coming on The Pod?\n"
-  - "\nMan that sucks bro I\u2019ve been in that grindset recently. It\u2019s like
+    get you on. You down bro?"
+  - "Sick! This is gonna be great! That\u2019s so hype bro I\u2019m so down. We are
+    doing another show later this week. I'll check back when we are ready to go bro.
+    I\u2019ll check you later man."
+  - Aight bro I see well the option is still open if you want it. Well man you should
+    hit me up later and we can hash this out. Later bro.
+  - "Ayy how\u2019s it going bro. You a big fan of diets? I got this keto thing going
+    and I think it\u2019s totally helping my gains. Can you tell?"
+  - "Thanks bro I knew you could tell. I\u2019ve been flexin over here like all day
+    and none of the other bros besides you have complimented me.That was big of you
+    bro. You still interested in coming on The Pod?"
+  - "Man that sucks bro I\u2019ve been in that grindset recently. It\u2019s like
     super demotivating, but thanks for being real with me. I\u2019d still have you
-    on The Pod if you are down but like no pressure bro.\n"
-  - "\nLet\u2019s go! Sick bro I\u2019m so down. I'll see you later tonight my man.\n"
-  - "\nDamn, ok bro if that\u2019s how it gotta be.\n"
-  - '
-
-    Thanks for coming on The Pod man, big ups to you. Glad to have another
-    beetle bro on. So all my Poders here in the stude with me today is my number
-    one bro. I know you all will think he is as sick as I do. Anyway let''s get right
-    into the grindset for today. Are you also on the keto train?
-
-'
-  - '
-
-    That is my man right there eatin right and lookin nice if I do say so
-    myself. Are you down to become a regular on the Pod?
-
-'
-  - '
-
-    All right, all right I gotchu you have some secret sauce. Well maybe you
-    should come back to another episode of The Pod and share with the bros.
-
-'
-  - '
-
-    Sick bro stop by the end of the week and we can set that up. That is something
+    on The Pod if you are down but like no pressure bro."
+  - "Let\u2019s go! Sick bro I\u2019m so down. I'll see you later tonight my man."
+  - "Damn, ok bro if that\u2019s how it gotta be."
+  - Thanks for coming on The Pod man, big ups to you. Glad to have another beetle
+    bro on. So all my Poders here in the stude with me today is my number one bro.
+    I know you all will think he is as sick as I do. Anyway let's get right into
+    the grindset for today. Are you also on the keto train?
+  - That is my man right there eatin right and lookin nice if I do say so myself.
+    Are you down to become a regular on the Pod?
+  - All right, all right I gotchu you have some secret sauce. Well maybe you should
+    come back to another episode of The Pod and share with the bros.
+  - Sick bro stop by the end of the week and we can set that up. That is something
     you Poders have to look forward to in the next episode.
-
-'
-  - '
-
-    Damn bro playing it close to the chest I can respect that. Especially
-    with a bod like yours, well stop by the end of the week if you reconsider bro.
-
-'
-  - '
-
-    Oh hey sorry about before I''m just such a clutz sometimes. Thank you
-    for helping me get unstuck. I keep getting fired from these jobs for being so
-    clumsy. I was a delivery driver, a plumber, and a babysitter. Sorry, I keep talking
-    about myself. Are you excited to start working here?
-
-'
-  - "\nSo was I. At first it was easy but now these days are sooo long I just can\u2019t
+  - Damn bro playing it close to the chest I can respect that. Especially with a
+    bod like yours, well stop by the end of the week if you reconsider bro.
+  - Oh hey sorry about before I'm just such a clutz sometimes. Thank you for helping
+    me get unstuck. I keep getting fired from these jobs for being so clumsy. I was
+    a delivery driver, a plumber, and a babysitter. Sorry, I keep talking about myself.
+    Are you excited to start working here?
+  - "So was I. At first it was easy but now these days are sooo long I just can\u2019t
     take it. I hope you will make it easier to take. I was going to have lunch but
-    I realized I forgot it. I'm so forgetful. Do you have anything to eat?\n"
-  - "\nOh. I\u2019m sorry to hear that. I hope I can cheer you up. Anyway I was hoping
+    I realized I forgot it. I'm so forgetful. Do you have anything to eat?"
+  - "Oh. I\u2019m sorry to hear that. I hope I can cheer you up. Anyway I was hoping
     you could help me out. I forgot my lunch being the forgetful little spider I
-    am. I was wondering do you have anything I could eat?\n"
-  - '
-
-    Oh thank you! I am so sorry to impose on your lunch I would just dread
-    to not eat for another six hours. You have been so helpful to me today I would
-    just love to spend more time with you. Having a friendly coworker like you just
-    has so many benefits.
-
-'
-  - "\nOh I see. I guess I will just have to have leftovers when I get home. I was
+    am. I was wondering do you have anything I could eat?"
+  - Oh thank you! I am so sorry to impose on your lunch I would just dread to not
+    eat for another six hours. You have been so helpful to me today I would just
+    love to spend more time with you. Having a friendly coworker like you just has
+    so many benefits.
+  - "Oh I see. I guess I will just have to have leftovers when I get home. I was
     so looking forward to spending my day with you. I\u2019m sorry I have been such
-    a mess today. You can come by later and I can try and make it up to you.\n"
-  - "\nI\u2019m so glad you are going to help me again today. I just love working
-    with new talent. It is always such fun. I hope you don\u2019t mind. I spun you
-    a hammock. Would you want to sit in it with me? I love spending time wrapping
-    up a good friend.\n"
-  - "\nOh wonderful! I hope you don\u2019t mind that my lunch is also in there, but
+    a mess today. You can come by later and I can try and make it up to you."
+  - "I\u2019m so glad you are going to help me again today. I just love working with
+    new talent. It is always such fun. I hope you don\u2019t mind. I spun you a hammock.
+    Would you want to sit in it with me? I love spending time wrapping up a good
+    friend."
+  - "Oh wonderful! I hope you don\u2019t mind that my lunch is also in there, but
     don\u2019t mind him, he\u2019s not nearly the snack you are. You truly are such
     a wonderful assistant. You make this scene so much more fun. Anyway, are you
-    liking this job? It's much less of a bore now that you\u2019re around.\n"
-  - "\nOh I see. No, it\u2019s ok, you don't have to. I just thought it would be
-    nice to have a deeper connection with my coworker. I know you are busy but I
-    hope we can find some time to do some work together. Are you at least liking
-    the job? It must be so hard being the new guy.\n"
-  - "\nI\u2019m happy to hear that. I know it\u2019s hard to get a start in this
-    industry, but you can do it! It\u2019s really all about building a web of connections.
+    liking this job? It's much less of a bore now that you\u2019re around."
+  - "Oh I see. No, it\u2019s ok, you don't have to. I just thought it would be nice
+    to have a deeper connection with my coworker. I know you are busy but I hope
+    we can find some time to do some work together. Are you at least liking the job?
+    It must be so hard being the new guy."
+  - "I\u2019m happy to hear that. I know it\u2019s hard to get a start in this industry,
+    but you can do it! It\u2019s really all about building a web of connections.
     You're stuck in there? Oh my! What a shame. I hope you don\u2019t mind. I like
-    having you around. I'll come grab you tomorrow.\n"
-  - "\nOh no that's such a shame. Too bad you are stuck here with silly ol\u2019
-    me. I just want our time together to be pleasant. I guess I\u2019ll see you around.
+    having you around. I'll come grab you tomorrow."
+  - "Oh no that's such a shame. Too bad you are stuck here with silly ol\u2019 me.
+    I just want our time together to be pleasant. I guess I\u2019ll see you around.
     Oh? You're stuck! Oh my, it looks like some of my web leaked out, it happens
-    sometimes. I guess you will just have to spend the night here.\n"
-  - "\nOh, you managed to escape on your own. What a shame I was hoping for a little
+    sometimes. I guess you will just have to spend the night here."
+  - "Oh, you managed to escape on your own. What a shame I was hoping for a little
     treat when I got back. Either way I\u2019m glad you came back for more. I know
     I can be a lot but I just get so tangled up when I find someone I want. Will
-    you forgive me? I can make it up to you.\n"
-  - "\nAww, that\u2019s just what I wanted to hear. I\u2019ve always wanted to be
-    tied down by someone like you. I know just the thing for you, come find me at
-    the end of the week and it will be ready. \n"
-  - '
-
-    What a shame, you are just my type of morsel. Well, if you change your
-    mind, come find me at the end of the week and I just might have a surprise for
-    you.'
+    you forgive me? I can make it up to you."
+  - "Aww, that\u2019s just what I wanted to hear. I\u2019ve always wanted to be tied
+    down by someone like you. I know just the thing for you, come find me at the
+    end of the week and it will be ready. "
+  - What a shame, you are just my type of morsel. Well, if you change your mind,
+    come find me at the end of the week and I just might have a surprise for you.
 --- !u!114 &68488772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -441,7 +379,7 @@ MonoBehaviour:
   - name: Beatrice
     attractiveness: 0
     lineNum: 0
-    interactionNum: 0
+    interactionNum: -1
     background: {fileID: 21300000, guid: 0280759c4a7c95a4ab2bd9cf24900a49, type: 3}
     neutral: {fileID: 21300000, guid: 59ac4d1bd18b6ef41a7c8a14e3976290, type: 3}
     lovie: {fileID: 21300000, guid: 648947acea4f6d64f8e9a9ef375d35ed, type: 3}
@@ -450,7 +388,7 @@ MonoBehaviour:
   - name: Lynus
     attractiveness: 0
     lineNum: 0
-    interactionNum: 0
+    interactionNum: -1
     background: {fileID: 21300000, guid: e98a39e1b9b961c45ad754460946ee8b, type: 3}
     neutral: {fileID: 21300000, guid: 6744c411351adf94e95e3d27b7ae08d6, type: 3}
     lovie: {fileID: 21300000, guid: 17285889baed7b346b1d2c0b3acaa1ed, type: 3}
@@ -459,7 +397,7 @@ MonoBehaviour:
   - name: Brad
     attractiveness: 0
     lineNum: 0
-    interactionNum: 0
+    interactionNum: -1
     background: {fileID: 21300000, guid: 1e9d53bc081943f48b7a6f4237f24ee8, type: 3}
     neutral: {fileID: 21300000, guid: f5441362bddcb3847873e19a4bdbc878, type: 3}
     lovie: {fileID: 21300000, guid: 6cd61686a145f5d4985ee6e43af3320b, type: 3}
@@ -468,7 +406,7 @@ MonoBehaviour:
   - name: Sally Star
     attractiveness: 0
     lineNum: 0
-    interactionNum: 0
+    interactionNum: -1
     background: {fileID: 21300000, guid: 026ac218ac426c04db50a5515563733a, type: 3}
     neutral: {fileID: 21300000, guid: 231899c2f2e784e4da6aa40a3f652430, type: 3}
     lovie: {fileID: 21300000, guid: 526993d9d009ac54d82c9c0d9ebc9ce8, type: 3}
@@ -477,10 +415,12 @@ MonoBehaviour:
   parser: {fileID: 68488771}
   textScrolling: {fileID: 68488774}
   yesNoButtons: {fileID: 862456907}
+  nextLineButton: {fileID: 456416744}
   characterSelectionScreen: {fileID: 317542365}
   backgroundImage: {fileID: 302622038}
   dialogueText: {fileID: 125647259}
   mantisScreen: {fileID: 316827999}
+  dayNum: 1
 --- !u!4 &68488773
 Transform:
   m_ObjectHideFlags: 0
@@ -1428,8 +1368,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
+    m_PressedColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1

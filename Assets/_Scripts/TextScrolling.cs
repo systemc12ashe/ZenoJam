@@ -14,6 +14,7 @@ public class TextScrolling : MonoBehaviour
 
     public void displayText(TMP_Text text, string inputText)
     {
+        StopAllCoroutines();
         text.text = string.Empty;
         char[] characters = seperateString(inputText);
         StartCoroutine(displayCharacter(characters, text));
@@ -24,7 +25,7 @@ public class TextScrolling : MonoBehaviour
     {
         foreach (var character in characterArray)
         {
-            yield return new WaitForSeconds(0.025f);
+            yield return new WaitForSeconds(0.015f);
             text.text += character;
         }
 
