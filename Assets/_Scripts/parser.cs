@@ -43,8 +43,9 @@ public class parser : MonoBehaviour
         {
             if (currentList == introductions)
             {
-                if (i<= 5)
+                if (i <= 5)
                 {
+                    Debug.Log(i);
                     interactionOne.Add(conversationText[i]);
                 }
                 else

@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     public Image backgroundImage;
     public TMP_Text dialogueText;
     public GameObject mantisScreen;
+
+    private bool intro = true;
     
     public void Start()
     {
@@ -35,7 +37,10 @@ public class GameManager : MonoBehaviour
             else if(characters[i].name == "Introductions")
                 characters[i].lines = parser.introductions;
         }
-        characterSelectionScreen.SetActive(false);
+
+        currentCharacter = characters[0];
+        UpdateText();
+        //characterSelectionScreen.SetActive(false);
         backgroundImage.sprite = characters[0].background;
         mantisScreen.SetActive(true);
     }
@@ -58,6 +63,26 @@ public class GameManager : MonoBehaviour
     public void NextLine()
     {
         currentCharacter.lineNum += 1;
+        if (intro)
+        {
+            
+            
+            if (currentCharacter.lineNum == 5)
+            {
+                characters[0].screen.SetActive(true);
+                characters[currentCharacter.lineNum - 1].screen.SetActive(false);
+            }
+            else if (currentCharacter.lineNum == 6)
+            {
+                characters[0].screen.SetActive(false);
+                characterSelectionScreen.SetActive(true);
+            }
+            else
+            {
+                characters[currentCharacter.lineNum].screen.SetActive(true);
+                characters[currentCharacter.lineNum - 1].screen.SetActive(false);
+            }
+        }
         UpdateText();
     }
 
