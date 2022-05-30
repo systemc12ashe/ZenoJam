@@ -21,19 +21,19 @@ public class GameManager : MonoBehaviour
     {
         parser = GetComponent<parser>();
         parser.GetConversationText();
-        textScrolling.displayText();
+        textScrolling.displayText(dialogueText, "Yay! It works! :D");
         for (int i = 0; i < characters.Length; i++)
         {
             if (characters[i].name == "Beatrice")
-                characters[i].lines = parser.beatrice.ToArray();
+                characters[i].lines = parser.beatrice;
             else if(characters[i].name == "Lynus")
-                characters[i].lines = parser.lynus.ToArray();
+                characters[i].lines = parser.lynus;
             else if(characters[i].name == "Brad")
-                characters[i].lines = parser.brad.ToArray();
+                characters[i].lines = parser.brad;
             else if(characters[i].name == "Sally Star")
-                characters[i].lines = parser.sally.ToArray();
+                characters[i].lines = parser.sally;
             else if(characters[i].name == "Introdutions")
-                characters[i].lines = parser.sally.ToArray();
+                characters[i].lines = parser.introductions;
         }
     }
 
@@ -74,7 +74,7 @@ public class Character
     public string name;
     public float attractiveness = 0;
     public int lineNum = 0;
-    public string[] lines;
+    public List<List<string>> lines;
     public Sprite background;
     public GameObject screen;
 }

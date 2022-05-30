@@ -11,11 +11,11 @@ public class parser : MonoBehaviour
     public TextAsset conversations;
 
     public string[] conversationText;
-    public List<string> introductions;
-    public List<string> beatrice;
-    public List<string> sally;
-    public List<string> brad;
-    public List<string> lynus;
+    public List<List<string>> introductions = new List<List<string>>();
+    public List<List<string>> beatrice = new List<List<string>>();
+    public List<List<string>> sally = new List<List<string>>();
+    public List<List<string>> brad = new List<List<string>>();
+    public List<List<string>> lynus = new List<List<string>>();
     
     [ContextMenu("Test Parser")]
     public void GetConversationText()
@@ -26,19 +26,144 @@ public class parser : MonoBehaviour
         {
             var output = sr.ReadToEnd();
             conversationText = output.Split(new string[] { "***" }, System.StringSplitOptions.None);
-            AddToList(introductions, 0, 5);
-            AddToList(beatrice, 6, 19);
-            AddToList(lynus, 20, 33);
-            AddToList(brad, 34, 50);
-            AddToList(sally, 51, 63);
+            AddToList(beatrice, 6);
+            AddToList(lynus, 20);
+            AddToList(brad, 36);
+            AddToList(sally, 53);
+            AddToList(introductions, 0);
         }
     }
 
-    public void AddToList(List<string> currentList,int start, int end)
+    public void AddToList(List<List<string>> currentList, int start)
     {
-        for (int i = start; i <= end; i++)
+        List<string> interactionOne = new List<string>();
+        List<string> interactionTwo = new List<string>();
+        List<string> interactionThree = new List<string>();
+        for (int i = start; i <= 65; i++)
         {
-            currentList.Add(conversationText[i]);
+            if (currentList == introductions)
+            {
+                if (i<= 5)
+                {
+                    interactionOne.Add(conversationText[i]);
+                }
+                else
+                {
+                    break;
+                }
+            }
+            if (currentList == sally)
+            {
+                if (i <= 57)
+                {
+                    interactionOne.Add(conversationText[i]);
+                } else if (i <= 62)
+                {
+                    interactionTwo.Add(conversationText[i]);
+                } else if (i <= 65)
+                {
+                    interactionThree.Add(conversationText[i]);
+                }
+                else
+                {
+                    break;
+                }
+            }
+            if (currentList == brad)
+            {
+                if (i <= 42)
+                {
+                    interactionOne.Add(conversationText[i]);
+                } else if (i <= 47)
+                {
+                    interactionTwo.Add(conversationText[i]);
+                } else if (i <= 52)
+                {
+                    interactionThree.Add(conversationText[i]);
+                }
+                else
+                {
+                    break;
+                }
+            }
+            if (currentList == beatrice)
+            {
+                if (i is >= 6 and <= 11)
+                {
+                    interactionOne.Add(conversationText[i]);
+                } else if (i is > 11 and <= 14)
+                {
+                    interactionTwo.Add(conversationText[i]);
+                } else if (i is > 14 and <= 19)
+                {
+                    interactionThree.Add(conversationText[i]);
+                }
+                else
+                {
+                    break;
+                }
+            }
+            if (currentList == lynus)
+            {
+                if (i <= 24)
+                {
+                    interactionOne.Add(conversationText[i]);
+                }
+                else if (i <= 30)
+                {
+                    interactionTwo.Add(conversationText[i]);
+                }
+                else if (i <= 35)
+                {
+                    interactionThree.Add(conversationText[i]);
+                }
+                else
+                {
+                    break;
+                }
+            }
+        }
+
+        if (currentList == beatrice)
+        {
+            Debug.Log(interactionOne.Count);
+            Debug.Log(interactionTwo.Count);
+            Debug.Log(interactionThree.Count);
+            beatrice.Add(interactionOne);
+            beatrice.Add(interactionTwo);
+            beatrice.Add(interactionThree);
+        }
+        if (currentList == sally)
+        {
+            Debug.Log(interactionOne.Count);
+            Debug.Log(interactionTwo.Count);
+            Debug.Log(interactionThree.Count);
+            sally.Add(interactionOne);
+            sally.Add(interactionTwo);
+            sally.Add(interactionThree);
+        }
+        if (currentList == brad)
+        {
+            Debug.Log(interactionOne.Count);
+            Debug.Log(interactionTwo.Count);
+            Debug.Log(interactionThree.Count);
+            brad.Add(interactionOne);
+            brad.Add(interactionTwo);
+            brad.Add(interactionThree);
+        }
+        if (currentList == lynus)
+        {
+            Debug.Log(interactionOne.Count);
+            Debug.Log(interactionTwo.Count);
+            Debug.Log(interactionThree.Count);
+            lynus.Add(interactionOne);
+            lynus.Add(interactionTwo);
+            lynus.Add(interactionThree);
+        }
+        if (currentList == introductions)
+        {
+            Debug.Log(interactionOne.Count);
+            introductions.Add(interactionOne);
         }
     }
 }
