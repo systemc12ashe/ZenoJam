@@ -16,7 +16,8 @@ public class GameManager : MonoBehaviour
     public GameObject characterSelectionScreen;
     public Image backgroundImage;
     public TMP_Text dialogueText;
-
+    public GameObject mantisScreen;
+    
     public void Start()
     {
         parser = GetComponent<parser>();
@@ -34,6 +35,9 @@ public class GameManager : MonoBehaviour
             else if(characters[i].name == "Introductions")
                 characters[i].lines = parser.introductions;
         }
+        characterSelectionScreen.SetActive(false);
+        backgroundImage.sprite = characters[0].background;
+        mantisScreen.SetActive(true);
     }
 
     public void Yes()
