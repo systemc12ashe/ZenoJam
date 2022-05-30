@@ -14,6 +14,7 @@ public class TextScrolling : MonoBehaviour
 
     public void displayText(TMP_Text text, string inputText)
     {
+        text.text = string.Empty;
         char[] characters = seperateString(inputText);
         StartCoroutine(displayCharacter(characters, text));
         
