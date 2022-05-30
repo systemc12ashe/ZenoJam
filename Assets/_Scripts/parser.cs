@@ -90,6 +90,7 @@ public class parser : MonoBehaviour
             {
                 if (i is >= 6 and <= 11)
                 {
+                    
                     interactionOne.Add(conversationText[i]);
                 } else if (i is > 11 and <= 14)
                 {
