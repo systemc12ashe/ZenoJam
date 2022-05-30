@@ -88,9 +88,14 @@ public class GameManager : MonoBehaviour
 
     public void SelectCharacter(int i)
     {
+        if (characters[i].interactionNum == 2)
+        {
+            characterSelectionScreen.transform.GetChild(i - 1).gameObject.SetActive(false);
+        }
         backgroundImage.sprite = characters[0].background;
         currentCharacter = characters[i];
         characterSelectionScreen.SetActive(false);
+        currentCharacter.interactionNum += 1;
         StartInteraction();
     }
 
