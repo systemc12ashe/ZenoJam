@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
                 characters[i].lines = parser.brad;
             else if(characters[i].name == "Sally Star")
                 characters[i].lines = parser.sally;
-            else if(characters[i].name == "Introdutions")
+            else if(characters[i].name == "Introductions")
                 characters[i].lines = parser.introductions;
         }
     }
@@ -74,6 +74,7 @@ public class Character
     public string name;
     public float attractiveness = 0;
     public int lineNum = 0;
+    public int interactionNum = 0;
     public List<List<string>> lines;
     public Sprite background;
     public GameObject screen;

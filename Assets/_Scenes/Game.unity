@@ -422,36 +422,38 @@ MonoBehaviour:
     name: 
     attractiveness: 0
     lineNum: 0
+    interactionNum: 0
     background: {fileID: 0}
     screen: {fileID: 0}
   characters:
-  - name: Introdutions
+  - name: Introductions
     attractiveness: 0
     lineNum: 0
-    lines: []
+    interactionNum: 0
     background: {fileID: 21300000, guid: 0d2692f3a6edfd940a73ab552b739f9e, type: 3}
     screen: {fileID: 0}
   - name: Beatrice
     attractiveness: 0
     lineNum: 0
-    lines: []
+    interactionNum: 0
     background: {fileID: 21300000, guid: 0280759c4a7c95a4ab2bd9cf24900a49, type: 3}
     screen: {fileID: 837580283}
   - name: Lynus
     attractiveness: 0
     lineNum: 0
-    lines: []
+    interactionNum: 0
     background: {fileID: 21300000, guid: e98a39e1b9b961c45ad754460946ee8b, type: 3}
     screen: {fileID: 1849527052}
   - name: Brad
     attractiveness: 0
     lineNum: 0
+    interactionNum: 0
     background: {fileID: 21300000, guid: 1e9d53bc081943f48b7a6f4237f24ee8, type: 3}
     screen: {fileID: 1389861083}
   - name: Sally Star
     attractiveness: 0
     lineNum: 0
-    lines: []
+    interactionNum: 0
     background: {fileID: 21300000, guid: 026ac218ac426c04db50a5515563733a, type: 3}
     screen: {fileID: 1493516635}
   parser: {fileID: 68488771}
@@ -574,8 +576,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56.43
-  m_fontSizeBase: 56.43
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
