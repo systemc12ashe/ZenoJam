@@ -167,13 +167,13 @@ MonoBehaviour:
     day? I couldn\u2019t even tell, you look like a pro. If you\u2019re ever bored,
     come talk to me. I\u2019ll always be there for you. Always. I love y- I mean,
     see ya later!"
-  - Yo, sup bro, how it be, tle. Ha see what I did there, I'm a beetle. So yeah you
-    look pretty cool, we should chill sometime. I have this cool crypto podcast I
-    do with my roommate. We would love to have you on The Pod sometime bro. Anyways,
-    catch ya on the flip dude.
-  - "Oh hi! I didn\u2019t see you there. Sorry I just dropped my pen, let me grab
-    that. OH NO! I\u2019m so sorry I\u2019m such a clumsy girl I got myself stuck
-    in my own web. Please help me out."
+  - Yo, sup bro, how it be, tle. Ha see what I did there, I'm Brad the beetle. So
+    yeah you look pretty cool, we should chill sometime. I have this cool crypto
+    podcast I do with my roommate. We would love to have you on The Pod sometime
+    bro. Anyways, catch ya on the flip dude.
+  - "Oh hi! I didn\u2019t see you there I'm Sally Star. Sorry I just dropped my pen,
+    let me grab that. OH NO! I\u2019m so sorry I\u2019m such a clumsy girl I got
+    myself stuck in my own web. Please help me out."
   - "Now that you\u2019ve met everyone, I\u2019ll properly introduce myself. I\u2019m
     Mantis, and you can come to me if you need anything, I don\u2019t bite! I\u2019m
     just glad to find an employee that might get something done around here. Everyone
@@ -431,7 +431,7 @@ MonoBehaviour:
     endingText: "That night\u2026 Hey there my big man. I hope you are ok with you
       being tied up instead of me. I promise to take you down when I finish."
     screen: {fileID: 1493516635}
-  parser: {fileID: 68488771}
+  parser: {fileID: 0}
   textScrolling: {fileID: 68488774}
   yesNoButtons: {fileID: 862456907}
   nextLineButton: {fileID: 456416744}
@@ -1154,7 +1154,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &316828000
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1574,8 +1574,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.6603774, g: 0.6603774, b: 0.6603774, a: 1}
-    m_PressedColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
+    m_HighlightedColor: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
+    m_PressedColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1592,7 +1592,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 456416747}
+  m_TargetGraphic: {fileID: 1713319591}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:

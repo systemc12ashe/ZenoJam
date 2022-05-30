@@ -31,21 +31,21 @@ public class GameManager : MonoBehaviour
     
     public void Start()
     {
-        parser = GetComponent<parser>();
-        parser.GetConversationText();
-        for (int i = 0; i < characters.Length; i++)
-        {
-            if (characters[i].name == "Beatrice")
-                characters[i].lines = parser.beatrice;
-            else if(characters[i].name == "Lynus the Tick")
-                characters[i].lines = parser.lynus;
-            else if(characters[i].name == "Brad")
-                characters[i].lines = parser.brad;
-            else if(characters[i].name == "Sally Star")
+         parser = GetComponent<parser>();
+         parser.ConversationTextAgain();
+         for (int i = 0; i < characters.Length; i++)
+         {
+             if (characters[i].name == "Beatrice")
+                 characters[i].lines = parser.beatrice;
+             else if(characters[i].name == "Lynus the Tick")
+                 characters[i].lines = parser.lynus;
+             else if(characters[i].name == "Brad")
+                 characters[i].lines = parser.brad;
+             else if(characters[i].name == "Sally Star")
                 characters[i].lines = parser.sally;
-            else if(characters[i].name == "Mantis")
-                characters[i].lines = parser.introductions;
-        }
+             else if(characters[i].name == "Mantis")
+                 characters[i].lines = parser.introductions;
+         }
 
         currentCharacter = characters[0];
         UpdateText();
@@ -180,7 +180,7 @@ public class GameManager : MonoBehaviour
             }
 
             ending = true;
-            textScrolling.displayText(dialogueText,"Wow, it's already the end of the week... You do you want to pick?");
+            textScrolling.displayText(dialogueText,"Wow, it's already the end of the week... Who do you want to pick?");
         }
 
         if (dayNum < 5)

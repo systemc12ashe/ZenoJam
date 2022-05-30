@@ -5,6 +5,7 @@ using System.IO;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Networking;
 
 public class parser : MonoBehaviour
 {
@@ -16,22 +17,46 @@ public class parser : MonoBehaviour
     public List<List<string>> sally = new List<List<string>>();
     public List<List<string>> brad = new List<List<string>>();
     public List<List<string>> lynus = new List<List<string>>();
-    
-    [ContextMenu("Test Parser")]
-    public void GetConversationText()
+
+    private void Start()
     {
-        string path = AssetDatabase.GetAssetPath(conversations);
+        //Directory.CreateDirectory(Application.streamingAssetsPath + "/Files/");
         
-        using (StreamReader sr = new StreamReader(path))
+    }
+
+    private UnityWebRequest uwr = new UnityWebRequest();
+    public IEnumerator Thing()
+    {
+        string path = "StreamingAssets/Files/Conversations.txt"; //This works because index.html is in the same folder as StreamingAssets ?
+        uwr = UnityWebRequest.Get(path);
+        yield return uwr.SendWebRequest();
+        //ConversationTextAgain();
+    }
+
+    [ContextMenu("Test Parser")]
+    
+    /*public void GetConversationText()
+    {
+        introductions = [[conversationText[0]], [], []];
+        beatrice = [[], [], []];
+        brad = [[], [], []];
+        sally = [[], [], []];
+        lynus = [[], [], []];
+
+    }*/
+
+    public void ConversationTextAgain(){
+        AddToList(beatrice, 6);
+        AddToList(lynus, 19);
+        AddToList(brad, 35);
+        AddToList(sally, 52);
+        AddToList(introductions, 0);
+        /*using (StreamReader sr = new StreamReader(path))
         {
             var output = sr.ReadToEnd();
             conversationText = output.Split(new string[] { "\n***\n" }, System.StringSplitOptions.None);
-            AddToList(beatrice, 6);
-            AddToList(lynus, 19);
-            AddToList(brad, 35);
-            AddToList(sally, 52);
-            AddToList(introductions, 0);
-        }
+            
+        }*/
     }
 
     public void AddToList(List<List<string>> currentList, int start)
