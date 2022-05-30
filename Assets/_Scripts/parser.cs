@@ -126,43 +126,30 @@ public class parser : MonoBehaviour
 
         if (currentList == beatrice)
         {
-            Debug.Log(interactionOne.Count);
-            Debug.Log(interactionTwo.Count);
-            Debug.Log(interactionThree.Count);
             beatrice.Add(interactionOne);
             beatrice.Add(interactionTwo);
             beatrice.Add(interactionThree);
         }
         if (currentList == sally)
         {
-            Debug.Log(interactionOne.Count);
-            Debug.Log(interactionTwo.Count);
-            Debug.Log(interactionThree.Count);
             sally.Add(interactionOne);
             sally.Add(interactionTwo);
             sally.Add(interactionThree);
         }
         if (currentList == brad)
         {
-            Debug.Log(interactionOne.Count);
-            Debug.Log(interactionTwo.Count);
-            Debug.Log(interactionThree.Count);
             brad.Add(interactionOne);
             brad.Add(interactionTwo);
             brad.Add(interactionThree);
         }
         if (currentList == lynus)
         {
-            Debug.Log(interactionOne.Count);
-            Debug.Log(interactionTwo.Count);
-            Debug.Log(interactionThree.Count);
             lynus.Add(interactionOne);
             lynus.Add(interactionTwo);
             lynus.Add(interactionThree);
         }
         if (currentList == introductions)
         {
-            Debug.Log(interactionOne.Count);
             introductions.Add(interactionOne);
         }
     }

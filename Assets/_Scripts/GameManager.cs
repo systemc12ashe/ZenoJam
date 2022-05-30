@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour
     {
         parser = GetComponent<parser>();
         parser.GetConversationText();
-        textScrolling.displayText(dialogueText, "Yay! It works! :D");
         for (int i = 0; i < characters.Length; i++)
         {
             if (characters[i].name == "Beatrice")
@@ -32,7 +31,7 @@ public class GameManager : MonoBehaviour
                 characters[i].lines = parser.brad;
             else if(characters[i].name == "Sally Star")
                 characters[i].lines = parser.sally;
-            else if(characters[i].name == "Introdutions")
+            else if(characters[i].name == "Introductions")
                 characters[i].lines = parser.introductions;
         }
     }
@@ -65,6 +64,7 @@ public class GameManager : MonoBehaviour
     {
         currentCharacter.screen.SetActive(true);
         backgroundImage.sprite = currentCharacter.background;
+        textScrolling.displayText(dialogueText, currentCharacter.lines[0][0]);
     }
 }
 
