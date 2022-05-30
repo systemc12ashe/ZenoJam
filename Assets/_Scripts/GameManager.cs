@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public parser parser;
     public TextScrolling textScrolling;
     public GameObject yesNoButtons;
+    public GameObject characterSelectionScreen;
     public Image backgroundImage;
     public TMP_Text dialogueText;
 
@@ -50,9 +51,21 @@ public class GameManager : MonoBehaviour
     public void NextLine()
     {
         currentCharacter.lineNum += 1;
-        
     }
-    
+
+    public void SelectCharacter(int i)
+    {
+        backgroundImage.sprite = characters[0].background;
+        currentCharacter = characters[i];
+        characterSelectionScreen.SetActive(false);
+        StartInteraction();
+    }
+
+    public void StartInteraction()
+    {
+        currentCharacter.screen.SetActive(true);
+        backgroundImage.sprite = currentCharacter.background;
+    }
 }
 
 [Serializable]
@@ -63,4 +76,5 @@ public class Character
     public int lineNum = 0;
     public List<List<string>> lines;
     public Sprite background;
+    public GameObject screen;
 }
